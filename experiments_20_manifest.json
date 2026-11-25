@@ -1,0 +1,353 @@
+[
+  {
+    "experiment": 1,
+    "runId": "exp01_start_x_04",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp01_start_x_04.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp01_start_x_04.wbt",
+    "changes": {
+      "track": {
+        "startX": 0.4
+      },
+      "episode": {
+        "startYRange": [
+          -0.3,
+          0.3
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 2,
+    "runId": "exp02_start_y_narrow",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp02_start_y_narrow.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp02_start_y_narrow.wbt",
+    "changes": {
+      "episode": {
+        "startYRange": [
+          -0.1,
+          0.1
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 3,
+    "runId": "exp03_start_y_medium",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp03_start_y_medium.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp03_start_y_medium.wbt",
+    "changes": {
+      "episode": {
+        "startYRange": [
+          -0.5,
+          0.5
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 4,
+    "runId": "exp04_start_y_wide",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp04_start_y_wide.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp04_start_y_wide.wbt",
+    "changes": {
+      "episode": {
+        "startYRange": [
+          -0.7,
+          0.7
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 5,
+    "runId": "exp05_start_x_08",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp05_start_x_08.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp05_start_x_08.wbt",
+    "changes": {
+      "track": {
+        "startX": 0.8
+      },
+      "episode": {
+        "startYRange": [
+          -0.3,
+          0.3
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 6,
+    "runId": "exp06_goal_x_60",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp06_goal_x_60.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp06_goal_x_60.wbt",
+    "changes": {
+      "episode": {
+        "goalXRange": [
+          6.0,
+          6.0
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 7,
+    "runId": "exp07_goal_x_65",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp07_goal_x_65.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp07_goal_x_65.wbt",
+    "changes": {
+      "episode": {
+        "goalXRange": [
+          6.5,
+          6.5
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 8,
+    "runId": "exp08_goal_x_70",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp08_goal_x_70.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp08_goal_x_70.wbt",
+    "changes": {
+      "episode": {
+        "goalXRange": [
+          7.0,
+          7.0
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 9,
+    "runId": "exp09_goal_x_73",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp09_goal_x_73.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp09_goal_x_73.wbt",
+    "changes": {
+      "episode": {
+        "goalXRange": [
+          7.3,
+          7.3
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 10,
+    "runId": "exp10_goal_x_range",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp10_goal_x_range.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp10_goal_x_range.wbt",
+    "changes": {
+      "episode": {
+        "goalXRange": [
+          6.5,
+          7.3
+        ]
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 11,
+    "runId": "exp11_lane_length_85",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp11_lane_length_85.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp11_lane_length_85.wbt",
+    "changes": {
+      "world": {
+        "laneLength": 8.5
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 12,
+    "runId": "exp12_lane_width_16",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp12_lane_width_16.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp12_lane_width_16.wbt",
+    "changes": {
+      "world": {
+        "laneWidth": 1.6
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 13,
+    "runId": "exp13_lane_width_24",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp13_lane_width_24.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp13_lane_width_24.wbt",
+    "changes": {
+      "world": {
+        "laneWidth": 2.4
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 14,
+    "runId": "exp14_lane_length_90",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp14_lane_length_90.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp14_lane_length_90.wbt",
+    "changes": {
+      "world": {
+        "laneLength": 9.0
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 15,
+    "runId": "exp15_lane_spacing_35",
+    "mode": "eval",
+    "episodes": 30,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp15_lane_spacing_35.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp15_lane_spacing_35.wbt",
+    "changes": {
+      "world": {
+        "laneSpacing": 3.5
+      }
+    },
+    "agentParams": {}
+  },
+  {
+    "experiment": 16,
+    "runId": "exp16_lr_reference",
+    "mode": "train",
+    "episodes": 100,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp16_lr_reference.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp16_lr_reference.wbt",
+    "changes": {},
+    "agentParams": {
+      "dqn": {
+        "learning_rate": 0.0005
+      },
+      "a2c": {
+        "learning_rate": 0.0003
+      },
+      "ppo": {
+        "learning_rate": 0.0003,
+        "clip": 0.2
+      }
+    }
+  },
+  {
+    "experiment": 17,
+    "runId": "exp17_lr_low_a2c_ppo",
+    "mode": "train",
+    "episodes": 100,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp17_lr_low_a2c_ppo.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp17_lr_low_a2c_ppo.wbt",
+    "changes": {},
+    "agentParams": {
+      "dqn": {
+        "learning_rate": 0.001
+      },
+      "a2c": {
+        "learning_rate": 0.0001
+      },
+      "ppo": {
+        "learning_rate": 0.0001,
+        "clip": 0.2
+      }
+    }
+  },
+  {
+    "experiment": 18,
+    "runId": "exp18_lr_high_a2c_ppo",
+    "mode": "train",
+    "episodes": 100,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp18_lr_high_a2c_ppo.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp18_lr_high_a2c_ppo.wbt",
+    "changes": {},
+    "agentParams": {
+      "dqn": {
+        "learning_rate": 0.0001
+      },
+      "a2c": {
+        "learning_rate": 0.0005
+      },
+      "ppo": {
+        "learning_rate": 0.0005,
+        "clip": 0.2
+      }
+    }
+  },
+  {
+    "experiment": 19,
+    "runId": "exp19_ppo_clip_01",
+    "mode": "train",
+    "episodes": 100,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp19_ppo_clip_01.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp19_ppo_clip_01.wbt",
+    "changes": {},
+    "agentParams": {
+      "dqn": {
+        "learning_rate": 0.0005
+      },
+      "a2c": {
+        "learning_rate": 0.0003
+      },
+      "ppo": {
+        "learning_rate": 0.0003,
+        "clip": 0.1
+      }
+    }
+  },
+  {
+    "experiment": 20,
+    "runId": "exp20_ppo_clip_03",
+    "mode": "train",
+    "episodes": 100,
+    "config": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\config\\experiments_20\\exp20_ppo_clip_03.json",
+    "world": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\worlds\\experiments_20\\exp20_ppo_clip_03.wbt",
+    "changes": {},
+    "agentParams": {
+      "dqn": {
+        "learning_rate": 0.0005
+      },
+      "a2c": {
+        "learning_rate": 0.0003
+      },
+      "ppo": {
+        "learning_rate": 0.0003,
+        "clip": 0.3
+      }
+    }
+  }
+]

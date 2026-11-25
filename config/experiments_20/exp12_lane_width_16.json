@@ -1,0 +1,82 @@
+{
+  "runId": "exp12_lane_width_16",
+  "seed": 2,
+  "mode": "eval",
+  "quitWhenFinished": false,
+  "world": {
+    "laneCount": 4,
+    "laneSpacing": 3.0,
+    "laneLength": 8.0,
+    "laneWidth": 1.6,
+    "basicTimeStep": 16
+  },
+  "track": {
+    "startX": 0.6,
+    "obstacles": [
+      {
+        "x": 2.2,
+        "y": 0.15,
+        "sx": 0.3,
+        "sy": 0.3
+      },
+      {
+        "x": 3.8,
+        "y": -0.15,
+        "sx": 0.3,
+        "sy": 0.3
+      },
+      {
+        "x": 5.4,
+        "y": 0.15,
+        "sx": 0.3,
+        "sy": 0.3
+      }
+    ]
+  },
+  "episode": {
+    "count": 30,
+    "maxDecisions": 250,
+    "decisionMs": 512,
+    "warmupMs": 4000,
+    "startYRange": [
+      -0.3,
+      0.3
+    ],
+    "goalXRange": [
+      7.0,
+      7.0
+    ],
+    "goalRadius": 0.4
+  },
+  "observation": {
+    "maxRange": 1.5,
+    "robotRadius": 0.15
+  },
+  "reward": {
+    "progressGain": 10.0,
+    "stepPenalty": 0.02,
+    "collisionPenalty": 1.0,
+    "proximityGain": 0.5,
+    "shieldPenalty": 0.1,
+    "fallPenalty": 20.0,
+    "goalBonus": 50.0,
+    "timeBonus": 20.0
+  },
+  "safety": {
+    "enabled": true,
+    "dSafe": 0.35
+  },
+  "agents": [
+    "dqn",
+    "a2c",
+    "ppo",
+    "heuristic"
+  ],
+  "saveModels": false,
+  "modelLoad": {
+    "0": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\results\\run_20261124_205146\\models\\robot_0_dqn.pt",
+    "1": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\results\\run_20261124_205146\\models\\robot_1_a2c.pt",
+    "2": "C:\\Users\\Perro Maricon\\Documents\\parcial_desde_cero\\results\\run_20261124_205146\\models\\robot_2_ppo.pt"
+  },
+  "agentParams": {}
+}

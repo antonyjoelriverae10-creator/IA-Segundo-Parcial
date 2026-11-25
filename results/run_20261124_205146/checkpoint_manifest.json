@@ -1,0 +1,25 @@
+{
+  "episode_saved": "final",
+  "agents": [
+    {
+      "lane": 0,
+      "name": "dqn",
+      "checkpoint": "models/robot_0_dqn.pt"
+    },
+    {
+      "lane": 1,
+      "name": "a2c",
+      "checkpoint": "models/robot_1_a2c.pt"
+    },
+    {
+      "lane": 2,
+      "name": "ppo",
+      "checkpoint": "models/robot_2_ppo.pt"
+    },
+    {
+      "lane": 3,
+      "name": "heuristic",
+      "checkpoint": null
+    }
+  ]
+}

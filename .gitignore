@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Compilados
+*.exe
+*.o
+*.d
+build/
+
+# Respaldos
+backup_*/
+*.backup*
+*.py_backup_*
+*_backup_*
+*.ini.backup*
+
+# Webots
+*.wbproj
+
+# Modelos entrenados
+results/**/models/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
